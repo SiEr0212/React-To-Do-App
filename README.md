@@ -1,3 +1,12 @@
+:hand:Hi and welcome!
+In this is a project I'm building a React To-Do App.
+I want to learn how to use :anchor:React Hooks:anchor: by working on this project.
+:simple_smile:
+
+
+ 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
