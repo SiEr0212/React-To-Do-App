@@ -1,6 +1,7 @@
 # :hand:Hi and welcome to my React To-Do App !
 <br>
-In this is a project I'm building a React To-Do App.
+In this project I'm building a React To-Do App.
+<br>
 <br>
 I want to learn how to use :anchor:React Hooks:anchor: by working on this project.
 :smiley:
