@@ -2,18 +2,25 @@ import React, { useState } from "react";
 import "./App.css";
 
 function Todo({ todo, index }) {
-  return <div className="todo">{todo.text}</div>;
+  return (
+    <div
+      style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
+      className="todo"
+    >
+      {todo.text}
+    </div>
+  );
 }
 
 function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
 
-  const handleSubmit =e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    if(!value) return;
+    if (!value) return;
     addTodo(value);
     setValue("");
-  }
+  };
 
   return (
     <form onSubmit={handleSubmit}>
@@ -44,11 +51,10 @@ function App() {
     },
   ]);
 
-  const addTodo = text => {
-    const newTodos =[...todos, { text }];
+  const addTodo = (text) => {
+    const newTodos = [...todos, { text }];
     setTodos(newTodos);
-
-  }
+  };
 
   return (
     <div className="app">
