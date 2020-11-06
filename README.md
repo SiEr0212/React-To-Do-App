@@ -1,7 +1,8 @@
-:hand:Hi and welcome!
+# :hand:Hi and welcome!
+<br>
 In this is a project I'm building a React To-Do App.
 I want to learn how to use :anchor:React Hooks:anchor: by working on this project.
-:simple_smile:
+:smiley:
 
 
  
